@@ -10,14 +10,15 @@ import '../styles/index.css'
 
 // components
 import Home from './components/Home';
-import TodoList from './components/todolist';
+
 import Tittle from './components/Tittle';
+import TodoListF from './components/TodoList2';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <div className="text-center">
     <Tittle/>
     </div>
-    <TodoList/>
+    <TodoListF/>
   </React.StrictMode>,
 )
